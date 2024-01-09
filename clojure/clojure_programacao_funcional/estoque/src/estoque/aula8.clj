@@ -1,3 +1,5 @@
+(ns estoque.aula8)
+
 (def pedido {
              :mochila { :quantidade 2
                        :preco 80}
