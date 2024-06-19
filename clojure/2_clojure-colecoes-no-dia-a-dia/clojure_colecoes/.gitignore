@@ -1,0 +1,70 @@
+/target
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+.hgignore
+.hg/
+*~
+.DS_Store
+*#
+.#*
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iml
+
+# Diretórios de build e output do Leiningen (gerenciador de build)
+target/
+classes/
+out/
+
+# Diretórios de build e output do deps.edn e tools.deps (outro gerenciador de build)
+.clj-kondo/
+.libs/
+.cpcache/
+
+# Arquivos de logs e de configuração
+log/
+*.log
+*.swp
+*.swo
+
+# Arquivos temporários do REPL
+repl-history
+.repl-history
+
+# Arquivos do sistema operacional
+Thumbs.db
+
+# Arquivos de compilação do Java
+
+# Diretórios de build do Maven (caso esteja usando)
+.m2/
+
+# Arquivos do Leiningen (gerenciador de dependências e builds do Clojure)
+.lein-*
+
+# Arquivos de backup do editor
+*.bak
+
+# Outros arquivos gerados
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.gz
+*.tmp
+*.pid
+*.pid.lock
+
+# Dependências do Node.js, caso esteja usando
+node_modules/
+package-lock.json
+yarn.lock
